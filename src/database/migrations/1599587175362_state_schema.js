@@ -13,7 +13,7 @@ class StateSchema extends Schema {
             table.integer('country_id').unsigned();
             table.foreign('country_id').references(`${Config.get('location.countries_table')}.id`);
             table.string('country_code', 5);
-            table.string('state_code', 10).unique();
+            table.string('state_code', 10);
         });
     }
 

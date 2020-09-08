@@ -11,8 +11,8 @@ class CountrySchema extends Schema {
         this.create(Config.get('location.countries_table'), (table) => {
             table.increments()
             table.string('name', 190);
-            table.string('iso3', 5).unique();
-            table.string('iso2', 5).unique();
+            table.string('iso3', 5);
+            table.string('iso2', 5);
             table.string('phone_code');
             table.string('capital');
             table.string('currency', 10);
