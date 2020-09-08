@@ -14,10 +14,11 @@
 const City = use('App/Models/City');
 const https = require('https');
 
-var url = 'https://raw.githubusercontent.com/djunehor/countries-states-cities-database/master/states.json';
+var url = 'https://raw.githubusercontent.com/Shagital/countries-states-cities-database/master/cities.json';
 class CitySeeder {
     async run () {
-        https.get(url,(res) => {
+        console.time('CitySeeder');
+        await https.get(url,(res) => {
             let body = "";
 
             res.on("data", (chunk) => {
@@ -41,6 +42,7 @@ class CitySeeder {
         }).on("error", (error) => {
             console.error(error.message);
         });
+        console.time('CitySeeder');
     }
 }
 
