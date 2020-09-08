@@ -1,6 +1,6 @@
 {
   "name": "@shagital/adonisjs-location",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Adonisjs (Nodejs) package that provides simple way to get Countries, Cities and States that you may need for your Application, most especially for dropdown menus.",
   "devDependencies": {
     "@adonisjs/fold": "^4.0.7",
@@ -22,5 +22,10 @@
     "cities"
   ],
   "author": "Zacchaeus Bolaji <zacchaeus@shagital.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shagital/adonisjs-location.git"
+  },
+  "homepage": "https://github.com/Shagital/adonisjs-location"
 }
