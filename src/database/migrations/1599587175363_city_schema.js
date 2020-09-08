@@ -9,7 +9,7 @@ class CitySchema extends Schema {
     up () {
         this.create(Config.get('location.cities_table'), (table) => {
             table.increments();
-            table.string('name', 150).unique();
+            table.string('name', 150);
             table.integer('country_id').unsigned().index('country_id');
             table.integer('state_id').unsigned().index('state_id');
             table.foreign('country_id').references(`${Config.get('location.countries_table')}.id`);
