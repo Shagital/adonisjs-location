@@ -1,0 +1,30 @@
+{
+  "name": "@shagital/adonisjs-location",
+  "version": "0.0.2",
+  "description": "Offers a simple way to get Countries, Cities and States that you may need for your Application, most especially for dropdown menus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@adonisjs/fold": "^4.0.7",
+    "@adonisjs/framework": "^5.0.6",
+    "@adonisjs/ignitor": "^2.0.8",
+    "@adonisjs/lucid": "^6.1.4",
+    "japa": "^3.1.1",
+    "japa-cli": "^1.0.1"
+  },
+  "dependencies": {
+  },
+  "keywords": [
+    "adonisjs",
+    "node",
+    "location",
+    "countries",
+    "states",
+    "regions",
+    "cities"
+  ],
+  "author": "Zacchaeus Bolaji <zacchaeus@shagital.com>",
+  "license": "MIT"
+}
