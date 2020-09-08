@@ -18,7 +18,7 @@ yarn add @shagital/adonisjs-location
 ```
 - Run instructions
 ```
-node ace run:instructions node_modules/@shagital/adonisjs-location
+adonis run:instructions node_modules/@shagital/adonisjs-location
 ```
 
 
