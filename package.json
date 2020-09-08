@@ -1,6 +1,6 @@
 {
   "name": "@shagital/adonisjs-location",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Offers a simple way to get Countries, Cities and States that you may need for your Application, most especially for dropdown menus.",
   "main": "index.js",
   "scripts": {
