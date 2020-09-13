@@ -1,4 +1,7 @@
 # Adonisjs Location ▲
+![npm](https://img.shields.io/npm/dt/@shagital/adonisjs-location?style=plastic)
+![npm (scoped)](https://img.shields.io/npm/v/@shagital/adonisjs-location)
+![NPM](https://img.shields.io/npm/l/@shagital/adonisjs-location)
 
 ## Introduction
 This Package offers a simple way to get Countries, Cities and States that you may need for your Application, most especially for dropdown menus.
